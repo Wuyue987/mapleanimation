@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/matestin.css">
+<style>
+body{
+	background-image: url("image/Sakurab.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1200px;
+}
+#upa{
+	height: 62px;
+	width: 100%;
+	background-color: #fff7fb;
+	opacity: 0.8;
+	background-image: url("gif/sakuraF.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#picp,#picp1,#picp2{
+	padding: 1em;
+	float: left;
+	height: 100%;
+	width: 40%;
+}
+#introart{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+#anime1{
+	width: 82%;
+	height: 900px;
+	float: left;
+	position: relative;
+	padding: 1em;
+}
+#airticle{
+	width: 100%;
+	height: 100%;
+}
+#leftm{
+	width: 200px;
+	height: 1200px;
+	position: relative;
+	float: left;
+	background-color: #000000;
+	background-size: cover;
+	z-index: 1;
+}
+#introwu,#introwu1{
+	padding: 1em;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+#intro1{
+	width: 50%;
+	position: relative;
+	float: left;
+}
+.black_overlay{ 
+            display: none; 
+            position: absolute; 
+            top: 0%; 
+            left: 0%; 
+            width: 100%; 
+            height: 100%; 
+            background-color: black; 
+            z-index:1001; 
+            -moz-opacity: 0.8; 
+            opacity:.80; 
+            filter: alpha(opacity=88); 
+        } 
+.white_content { 
+            display: none; 
+            position: absolute;  
+            left: 25%; 
+            width: 50%; 
+            height: 50%; 
+            padding: 1em; 
+            border: 1em solid orange; 
+            background-color: white; 
+            z-index:1002; 
+            overflow: auto; 
+        } 
+.tstyle{
+	padding: 1em;
+	float: left;
+
+}
+</style>
+<head>
+	<link rel="icon" href="image/maplestory-256x256.png" type="image/ico" />
+	<title>【MapleAnimation】楓動畫</title>
+</head>
+<body>
+	<div>
+		<div id="leftmenu" style="display: none;">
+		<div id="leftm" class="left">
+			<div>
+				<img class="imgs" src="image/1200px-MapleStory.png">
+				<button class="butst1" onclick="list1()"><b>◈Introduction</b></button>
+				<button class="butst1" onclick="list2()"><b>◈DesignArt</b></button>
+				<button class="butst1" onclick="list3()"><b>◈Animation</b></button>
+			</div>
+		</div>
+	    </div>
+	<div id="main">
+		<div id="upa">
+			<ul class="list-inline">
+				<button class="butst" onclick="openleft()"><img id="logo" src="image/Maple_nav_icon.png"></button>
+				<button class="butst" onclick="closeleft()"><img id="logo" src="image/Mapleiconclose.png"></button>
+				<button class="butst"><b>Welcome to MapleAnimation</b></button>
+		    </ul>
+	    </div>
+		<div id="airticle">
+			<div style="display: none;" id="listintro" class="left">
+				<div id="introwu">
+					<img src="image/Luciferyue.jpg"width="118px" height="118px">
+					<p style="font-size: 2em;font-family: DFKai-sb;"><b>筆名:WuYue</b></p>
+					<p style="font-family:DFKai-sb;font-size: 2em"><b>☬簡介</b></p>
+					<p>
+						<b>
+						Hi～I'm Wu Yue
+						<br>
+						I'm come from Taiwan～and i just a student.
+						<br>
+						¤Welcome to my channel~
+						<br>
+						I make some maple animation.
+						<br>
+						(我是一位很隨興的作者:D)
+						<br>
+						Hope everyone like it and enjoy it :)
+						<br>
+					    </b>
+					</p>
+					<p style="font-family:DFKai-sb;"><b>☫為何取名為『舞月』呢?</b></p>
+					<p style="font-family:DFKai-sb;">
+						存在於黑暗，也存在於光明
+						<br>
+						那無止境的黑，那無限的光
+						<br>
+						揮舞著黑與白的雙翼
+						<br>
+						<br>
+						光與暗的化身，乃吾『舞月』
+					</p>
+					<p style="font-family:DFKai-sb;"><b>☫製作楓動畫的契機?</b></p>
+						<p style="font-family:DFKai-sb;">
+						一切從我還小時開始說起,小時候看到有人用楓之谷人物做出很帥的影片(MV或很帥的動作片),我第一次看到的時候才國中,但我並沒有特別深入了解怎麼去製作,直到我高二的時候,遇到貴人的教導,開始慢慢地踏入這個名為"楓動畫"的圈子裡。
+					</p>
+				</div>
+				<div id="introwu1">
+					<br>
+					<a href="https://www.youtube.com/channel/UCail0SlYHh8uBDEv1syuYJQ?view_as=subscriber">
+					<img src="icon/youtube.png" width="103px" height="103px"></a>
+					<br>
+					<a href="https://www.facebook.com/FWDmoon/">
+						<img src="icon/logo-facebook-rund.png" width="103px" height="103px"></a>
+						<br>
+					<a href="https://home.gamer.com.tw/homeindex.php">
+						<img src="icon/bahamut logo.png" width="103px" height="103px"></a>
+					<br>
+					<p style="font-family:DFKai-sb;">使用的程式:</p>
+					<ul>
+						<li>Adobe Flash CS3</li>
+						<li>Adobe After Effect CS6</li>
+						<li>Adobe Photoshop CS6</li>
+						<li>PhotoimpactX3</li>
+						<li>Sony Vegas pro13.0</li>
+					</ul>
+				</div>
+			</div>
+			<div style="display: none;" id="listart" class="left">
+				<div id="picp">
+					<p style="font-size: 2em;"><b>2016</b></p>
+					<img src="image/2016/帥照.png" width="145px" height="90px">
+					<img src="image/2016/失去(全).png" width="145px" height="90px">
+					<img src="image/2016/情.png" width="145px" height="90px">
+					<img src="image/2016/渾沌(編).png" width="145px" height="90px">
+					<img src="image/2016/聖誕圖1.png" width="145px" height="90px">
+					<img src="image/2016/白舞頭貼.png" width="145px" height="90px">
+					<p style="font-size: 2em;"><b>2017</b></p>
+					<img src="image/2017/Lucifer1.png" width="145px" height="90px">
+					<img src="image/2017/帽T style f.png" width="145px" height="90px">
+					<img src="image/2017/黑白no.png" width="145px" height="90px">
+					<img src="image/2017/路西法RBP.png" width="145px" height="90px">
+					<img src="image/2017/編.jpg" width="160px" height="90px">
+					<p style="font-size: 2em;"><b>2018</b></p>
+					<img src="image/2018/Lucifer OLF1.png" width="145px" height="90px">
+					<img src="image/2018/Wuyue girl&boyNNF.jpg" width="145px" height="90px">
+					<img src="image/2018/2018聖誕圖new1.png" width="148px" height="83px">
+					<img src="image/2018/sakuraF.png" width="148px" height="83px">
+				</div>
+				<div id="picp1">
+					<p style="font-family: DFKai-sb;font-size: 2em;"><b>圖片設計簡介:</b></p>
+					<div id="introart">
+						<p style="font-family: DFKai-sb;">其實還有更早之前的圖片製作,最早貌似是2014年開始的,不過有點小小遺失,所以就沒有放上來,且又稀少,有特別再做圖片的時間點是從2016開始;進一步了解如何運用一些特效,就把圖片用的越來越好看了!!!</p>
+						<img src="image/Lucifer O.png" width="136px" height="150px">
+				    </div>
+				</div>
+			</div>
+			<div style="display: none;" id="listanime" class="left">
+				<div id="anime1" class="tstyle">
+				<p><b>FightAnimation(practice)</b></p>
+				<p style="font-family: DFKai-sb;">因為以前看到帥氣的楓谷戰鬥場面動畫,自己也想要嘗試看看就做了一些練習影片~</p>
+				<Button class="butst1" onclick="opendialog()">Weapon:Gun</button>
+					<div id="pgun" class="white_content">
+						<table>
+							<tr>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/wxPxtrb1mgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</tr>
+							<br>
+							<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+							<tr>
+								<div style="font-family: DFKai-sb;">
+								武器使用的練習影片,這是我早期在練習怎麼讓人物使用槍攻擊~人物也是我早期製作的人設,影片畫質不是很優良.
+							</div>
+							</tr>
+						</table>
+						<a href="JavaScript:void(0)" onclick="closedialog()">CloseWindow</a>
+					</div>
+					<div id="fade" class="black_overlay"></div>
+					
+					<button class="butst1" onclick="opendialog1()">FightsceneTest</button>
+					<div id="fp" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/gXqi1r68r7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									打鬥畫面與人物動作的練習,做出有連續打擊不中斷的感覺,就我早期製作的打鬥動畫,我覺得做的很棒~~(自己講)
+								</div>
+								</tr>
+							</table>
+							<a href="JavaScript:void(0)" onclick="closedialog1()">CloseWindow</a>
+						</div>
+						<div id="fade1" class="black_overlay"></div>
+					
+					<button class="butst1" onclick="opendialog2()">Weapon:Scythe</button>
+					<div id="pscythe" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/uQeYtqre4G8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									這是2016年底做出的人設,因為我有給做出人設黑化的模式,主要是拿鐮刀,這部是用鐮刀來做攻擊的練習影片,影片的角色也有給他人物配音~
+								</div>
+								</tr>
+							</table>
+							<a href="JavaScript:void(0)" onclick="closedialog2()">CloseWindow</a>
+						</div>
+						<div id="fade2" class="black_overlay"></div>
+					<button class="butst1" onclick="opendialog3()">Vs.Mushroom</button>
+					<div id="cmush" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/sGxdW0SNC4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									因為以前看過一部名為"The Smash Mushroom Collab"的影片,所以自己也想挑戰一下做一部打蘑菇怪物的影片~SmashMushroom總共出了3部~我全部都有看,他們對我來講是神作,我不知道重複看了多少遍,希望能從影片中得到一些靈感.
+									</div>
+								</tr>
+								<br>
+								<tr>
+									<a href="https://youtu.be/mwJKg8_vUkQ"><b>SmashMushroom1</b>
+									<br>
+									<a href="https://youtu.be/3DtwOlb-ihk"><b>SmashMushroom2</b>
+									<br>
+									<a href="https://youtu.be/CA8zlLw4L54"><b>SmashMushroom3</b>
+								</tr>
+							</table>
+							<br>
+							<a href="JavaScript:void(0)" onclick="closedialog3()">CloseWindow</a>
+						</div>
+						<div id="fade3" class="black_overlay"></div>
+					<button class="butst1" onclick="opendialog4()">Weapon:GunBlade</button>
+					<div id="gbp" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/tieYVdAaodo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									看到一款遊戲的一把槍劍武器,遊戲名是"Closers",但最早我看到槍劍武器的遊戲是"Latale",看到這麼帥氣的武器,自己就也想仿造一把,並且做出打鬥影片,所以就有了這麼一部練習影片.
+								</div>
+								</tr>
+							</table>
+							<a href="JavaScript:void(0)" onclick="closedialog4()">CloseWindow</a>
+						</div>
+						<div id="fade4" class="black_overlay"></div>
+				<p><b>MMV系列</b></p>
+				<p style="font-family: DFKai-sb;">聆聽一些音樂得到的感觸,與自身生活上所遇到的人事物,或者看別人的影片、動漫、電影;簡而言之,就是一個腦洞開了就會去做的東西</p>
+				<button class="butst1" onclick="opendialog5()">sMMV - Love you like I do</button>
+					<div id="lulid" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/sitoWUvIrF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									第一部製作的MMV影片,因為一開始看到很多人都在做MV類型的影片,而自己也去嘗試了看看,也發現做MMV也挺有趣的~因為會運用一些特效跟轉場畫面,呈現一些視覺衝擊效果;算是第一個製作的MMV練習~
+								</div>
+								</tr>
+							</table>
+							<a href="JavaScript:void(0)" onclick="closedialog5()">CloseWindow</a>
+						</div>
+						<div id="fade5" class="black_overlay"></div>
+				<button class="butst1" onclick="opendialog6()">sMMV - Lost</button>
+					<div id="lost" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/x2NwYiK2ZKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									自己暫時的MMV自信作品,因為聽到BTS-Lost這首歌,再加上自己生活上的一些體悟,而製作出來的MMV,是自己做MMV以來,最長的一部,自己在做MMV影片的時候大多都是30秒左右,實在是無法做到這麼久,這部影片是我目前做的最有感覺的一部,完成的時候,自己非常的開心!!!
+								</div>
+								</tr>
+							</table>
+							<a href="JavaScript:void(0)" onclick="closedialog6()">CloseWindow</a>
+						</div>
+						<div id="fade6" class="black_overlay"></div>
+				<button class="butst1" onclick="opendialog7()">sMMV - Walk you home</button>
+					<div id="wuh" class="white_content">
+							<table>
+								<tr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/Jjfrls0NyOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</tr>
+								<br>
+								<p style="font-family:DFKai-sb;font-size: 1em"><b>☬簡介</b></p>
+								<tr>
+									<div style="font-family: DFKai-sb;">
+									送給畢業學姊的一部簡短MMV,這部所使用是非常柔和的一些特效跟轉場效果,也是自己覺得技術再邁進的開端,對人物的動作,細節變化的掌握,也有明顯的進步~但這部不是練習影片~是送給已經畢業的學姊的XD
+								</div>
+								</tr>
+							</table>
+							<a href="JavaScript:void(0)" onclick="closedialog7()">CloseWindow</a>
+						</div>
+						<div id="fade7" class="black_overlay"></div>
+						<br>
+						<p style="font-family: DFKai-sb;font-size: 2em;"><b>♛自己舉辦的Collab</b></p>
+						<p style="font-size: 1em;">☬The Wolf Collab</p>
+						<a href="https://youtu.be/hM-spMLr9Zs"><img src="image/anime/改.png" width="146px" height="90px"></a>
+						<p style="font-size: 1em;">☬If you Did Collab</p>
+						<a href="https://youtu.be/uMLS1FAIksM"><img src="image/anime/影片封面圖.jpg" width="146px" height="90px"></a>
+						<br>
+						<br>
+						<p style="font-family: DFKai-sb;font-size: 2em"><b>☬總結</b></p>
+						<p style="font-family: DFKai-sb;">"楓動畫"就是楓之谷動畫,因為我本身不太會想劇情走向類的東西,所以沒有製作長片的習慣;所以呢大多都是做這種小小短片,或簡短劇情;在這圈子裏面呢,也有一些同好會聚集再一起製作一部影片,我們都會叫他"xxxx Collab",Collab其實就是Collection就是彙集的影視,而以上兩種類型的影片就是Collab最常出現的類型~
+							<br>
+						這種動畫被稱為Sprite動畫,他就是會有一個素材的檔案,素材量非常的龐大~網路上尋找都有機會找到,想要嘗試的人,稍微去搜尋一下,也可以製作出類似這樣的動畫影片,國外也有人有架構這種動畫的論壇,大多已這種像素動畫為主,網站裡也有很多可以使用的素材,前提是要是他們的會員並累積一點評價,才可以使用那些資源;總之我要學的東西還很多,做這些東西還可以培養一些影音剪輯的技能,我覺得非常的有趣~~:D!
+						</p>
+						<br>
+						<br>
+						<br>
+						<p p style="font-family: DFKai-sb;font-size: 1em">其他影片欣賞</p>
+						<p p style="font-family: DFKai-sb;">以下連結是我其餘的影片,我有把它弄成一個播放清單,給大家觀賞</p>
+						<a href="https://www.youtube.com/playlist?list=PLotGYbMSsUtP09FOk3zEh11kHIxd6jB0W">【CP | sMMV】Collection</a>
+						<br>
+						<a href="https://www.youtube.com/playlist?list=PLotGYbMSsUtNCQGr-NojDYdcrsGz8WdDE">【Fight】Collection</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+    </div>
+</body>
+<script>
+	function openleft()
+	{
+		document.getElementById("leftmenu").style.display="block";
+	}
+	function closeleft()
+	{
+		document.getElementById("leftmenu").style.display="none"
+		document.getElementById("leftmenu").style.class="right"
+	}
+	function list1()
+	{
+		var x,y,z;
+		x = document.getElementById("listintro");
+		y = document.getElementById("listart");
+		z = document.getElementById("listanime");
+		x.style.display="block";
+		y.style.display="none";
+		z.style.display="none";
+	}
+	function list2()
+	{
+		var x,y,z;
+		x = document.getElementById("listintro");
+		y = document.getElementById("listart");
+		z = document.getElementById("listanime");
+		x.style.display="none";
+		y.style.display="block";
+		z.style.display="none";
+	}
+	function list3()
+	{
+		var x,y,z;
+		x = document.getElementById("listintro");
+		y = document.getElementById("listart");
+		z = document.getElementById("listanime");
+		x.style.display="none";
+		y.style.display="none";
+		z.style.display="block";
+	}
+	function opendialog()
+	{
+		document.getElementById('pgun').style.display='block';
+		document.getElementById('fade').style.display='block'
+	}
+	function closedialog()
+	{
+		document.getElementById('pgun').style.display='none';
+		document.getElementById('fade').style.display='none'
+	}
+	function opendialog1()
+	{
+		document.getElementById('fp').style.display='block';
+		document.getElementById('fade1').style.display='block'
+	}
+	function closedialog1()
+	{
+		document.getElementById('fp').style.display='none';
+		document.getElementById('fade1').style.display='none'
+	}
+	function opendialog2()
+	{
+		document.getElementById('pscythe').style.display='block';
+		document.getElementById('fade2').style.display='block'
+	}
+	function closedialog2()
+	{
+		document.getElementById('pscythe').style.display='none';
+		document.getElementById('fade2').style.display='none'
+	}
+	function opendialog3()
+	{
+		document.getElementById('cmush').style.display='block';
+		document.getElementById('fade3').style.display='block'
+	}
+	function closedialog3()
+	{
+		document.getElementById('cmush').style.display='none';
+		document.getElementById('fade3').style.display='none'
+	}
+	function opendialog4()
+	{
+		document.getElementById('gbp').style.display='block';
+		document.getElementById('fade4').style.display='block'
+	}
+	function closedialog4()
+	{
+		document.getElementById('gbp').style.display='none';
+		document.getElementById('fade4').style.display='none'
+	}
+	function opendialog5()
+	{
+		document.getElementById('lulid').style.display='block';
+		document.getElementById('fade5').style.display='block'
+	}
+	function closedialog5()
+	{
+		document.getElementById('lulid').style.display='none';
+		document.getElementById('fade5').style.display='none'
+	}
+	function opendialog6()
+	{
+		document.getElementById('lost').style.display='block';
+		document.getElementById('fade6').style.display='block'
+	}
+	function closedialog6()
+	{
+		document.getElementById('lost').style.display='none';
+		document.getElementById('fade6').style.display='none'
+	}
+	function opendialog7()
+	{
+		document.getElementById('wuh').style.display='block';
+		document.getElementById('fade7').style.display='block'
+	}
+	function closedialog7()
+	{
+		document.getElementById('wuh').style.display='none';
+		document.getElementById('fade7').style.display='none'
+	}
+</script>
+</html>
