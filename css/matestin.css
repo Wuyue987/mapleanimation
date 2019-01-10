@@ -70,6 +70,14 @@ body{
 	font-family: DFKai-sb;
 	color: #FFFFFF;
 }
+.butst2{
+	border: none;
+	background-color: #000000;
+	padding: 1em;
+	margin: 1em;
+	font-family: DFKai-sb;
+	color: #FFFFFF;
+}
 .imgs{
 	text-align: center;
 	padding: 1em;
