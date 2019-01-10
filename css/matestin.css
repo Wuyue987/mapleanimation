@@ -72,6 +72,8 @@
 	margin: 1em;
 	font-family: DFKai-sb;
 	color: #FFFFFF;
+	width: 100%;
+	float: left;
 }
 .imgs{
 	text-align: center;
