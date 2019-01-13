@@ -3,10 +3,7 @@
 <link rel="stylesheet" href="css/matestin.css">
 <style>
 body{
-	background-image: url("picture/Sakurab.jpg");
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
+	background-color: 	#84c1ff;
 }
 .butst2:active{
 	background-color: #ff5151;
@@ -65,6 +62,9 @@ body{
 	position: relative;
 	float: left;
 }
+.butst2:hover{
+	background-color: #ce0000;
+}
 .black_overlay{ 
             display: none; 
             position: absolute; 
@@ -94,6 +94,14 @@ body{
 	padding: 1em;
 	float: left;
 }
+.bgc{
+	background-image: url("picture/Sakurab.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	opacity: 0.8;
+}
 </style>
 <head>
 	<link rel="icon" href="icon/Lucifer5.png" type="image/ico" />
@@ -101,6 +109,7 @@ body{
 </head>
 <body>
 	<div>
+		<div class="bgc"></div>
 		<div id="leftmenu" style="display: none;">
 		<div id="leftm" class="left">
 			<div>
